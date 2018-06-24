@@ -1,0 +1,26 @@
+{% load static %}
+<DOCTYPE! html>
+<head>
+    <title>Ingresa tu usuario y contraseña.</title>
+    <script type="text/javascript" src="{% static 'polls/jqwidgets-ver5.7.2/scripts/jquery-1.11.1.min.js' %}"></script>
+    <script type="text/javascript">
+    /*
+        $(document).ready(function() { 
+            $("#login").jqxExpander({ toggleMode: 'none', width: '350px', showArrow: false });
+            $("#username").jqxInput({ width: '300px', height: '20px' });
+            $("#password").jqxPasswordInput({ width: '300px', height: '20px', showStrength: true, showStrengthPosition: "right" });
+        });
+    */
+    </script>
+</head>
+<body>
+    <div id="login">
+        <div>
+            <form action="./">
+                <input id="username"/></br>
+                <input id="password" type="password"/>
+            </form>
+        </div>
+    </div>
+    
+</body>

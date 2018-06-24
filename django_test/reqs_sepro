@@ -1,0 +1,16 @@
+- modulo de autenticación
+    * oauth2
+        ~ gmail unal
+    * sesion invitados
+    * roles (permiso escritura encuestas)
+        ~ diseñador de encuestas
+        ~ consumidor de encuestas
+- base de datos
+    * MySQL relacional montar instancia
+    * no diseñar aún
+    * crud encuestas
+- creación de encuestas
+    * ver jotform.com
+    * amigable
+- graficación de datos
+    * ir pensando
