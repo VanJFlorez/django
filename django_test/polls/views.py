@@ -3,11 +3,14 @@ from django.template import loader
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
 from django.views import generic
+from django.contrib.auth import authenticate, login
 
 from .models import Question, Choice
 
 def login(request):
-    return render(request, 'polls/login.html')
+    # username = request.POST['user2']
+    # password = request.POST['pass2']
+    return render(request, 'polls/login.html', {'username': 'username', 'password': 'password'})
 
 def widgets(request):
   return render(request, 'polls/widgets.html', {'test': 'string demo'})
